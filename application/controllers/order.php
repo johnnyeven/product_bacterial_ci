@@ -35,6 +35,7 @@ class Order extends CI_Controller
 				$result = curl_exec($ch);
 
 				$json = json_decode($result);
+				exit($result);
 				if($json && $json->status == '0')
 				{
 					$this->load->config('product_items');
