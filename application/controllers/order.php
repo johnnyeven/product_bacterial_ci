@@ -39,15 +39,15 @@ class Order extends CI_Controller
 				{
 					$this->load->config('product_items');
 					$data = $this->config->item('product_items');
-					$items = $data[$identifier];
+					$item = $data[$identifier];
 
-					if(!empty($items))
+					if(!empty($item))
 					{
 						echo json_encode(array(
 							'command'	=>	'checkReceipt',
 							'code'		=>	1001,
 							'receipt'	=>	$result,
-							'items'		=>	$items
+							'item'		=>	$item
 						));
 					}
 					else
