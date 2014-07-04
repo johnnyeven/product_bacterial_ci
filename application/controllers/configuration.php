@@ -4,18 +4,8 @@ class Configuration extends CI_Controller
 {
 	public function product_id()
 	{
-		$data = array(
-			'command'	=>	'requestProductIds',
-			'products'	=>	array(
-				"net.profzone.bacterial.killer6",
-				"net.profzone.bacterial.killer12",
-				"net.profzone.bacterial.killer18",
-				"net.profzone.bacterial.killer25",
-				"net.profzone.bacterial.killer40",
-				"net.profzone.bacterial.killer60",
-				"net.profzone.bacterial.killer98"
-			)
-		);
+		$this->load->config('product_items');
+		$data = $this->config->item('product_identifiers');
 
 		header('Content-type: application/json');
 		echo json_encode($data);

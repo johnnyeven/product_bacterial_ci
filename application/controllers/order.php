@@ -10,11 +10,13 @@ class Order extends CI_Controller
 		$raw_post_data = file_get_contents('php://input', 'r');
 		$inputParam = json_decode($raw_post_data);
 		
+		header('Content-type: application/json');
 		if(!empty($inputParam))
 		{
+			$identifier = $inputParam->identifier;
 			$receipt = $inputParam->receipt;
 			
-			if(!empty($receipt))
+			if(!empty($identifier) && !empty($receipt))
 			{
 				$parameter = array(
 						'receipt-data'	=>	$receipt
@@ -31,19 +33,43 @@ class Order extends CI_Controller
 						'Content-Type: application/json'
 				));
 				$result = curl_exec($ch);
-				
-				header('Content-type: application/json');
-				echo json_encode(array(
-					'command'	=>	'checkReceipt',
-					'code'		=>	1,
-					'receipt'	=>	$result
-				));
+
+				$json = json_decode($result);
+				if($json && $json->status == '0')
+				{
+					$this->load->config('product_items');
+					$data = $this->config->item('product_items');
+					$items = $data[$identifier];
+
+					if(!empty($items))
+					{
+						echo json_encode(array(
+							'command'	=>	'checkReceipt',
+							'code'		=>	1001,
+							'receipt'	=>	$result
+						));
+					}
+					else
+					{
+						echo json_encode(array(
+							'command'	=>	'checkReceipt',
+							'code'		=>	1404
+						));
+					}
+				}
+				else
+				{
+					echo json_encode(array(
+						'command'	=>	'checkReceipt',
+						'code'		=>	1403
+					));
+				}
 			}
 			else
 			{
 				echo json_encode(array(
 					'command'	=>	'checkReceipt',
-					'code'		=>	0
+					'code'		=>	1998
 				));
 			}
 		}
@@ -51,7 +77,7 @@ class Order extends CI_Controller
 		{
 			echo json_encode(array(
 				'command'	=>	'checkReceipt',
-				'code'		=>	0
+				'code'		=>	1999
 			));
 		}
 	}
