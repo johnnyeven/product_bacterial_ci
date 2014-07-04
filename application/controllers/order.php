@@ -15,7 +15,7 @@ class Order extends CI_Controller
 		{
 			$identifier = $inputParam->identifier;
 			$receipt = $inputParam->receipt;
-			exit($receipt);
+			
 			if(!empty($identifier) && !empty($receipt))
 			{
 				$parameter = array(
