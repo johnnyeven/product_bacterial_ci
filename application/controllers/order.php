@@ -46,7 +46,8 @@ class Order extends CI_Controller
 						echo json_encode(array(
 							'command'	=>	'checkReceipt',
 							'code'		=>	1001,
-							'receipt'	=>	$result
+							'receipt'	=>	$result,
+							'items'		=>	$items
 						));
 					}
 					else
