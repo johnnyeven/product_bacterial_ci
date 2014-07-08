@@ -21,12 +21,12 @@ class Configuration extends CI_Controller
 		$this->load->config('version_config');
 		$this->load->config('product_items');
 		$version_data = $this->config->item('version_config');
-		$products = $this->config->item('product_items');
+		$products = $this->config->item('product_identifiers');
 
 		$result = array(
 			'command'			=>	'requestGlobalConfig',
 			'products'			=>	array(
-				'version'			=>	$version_data['product_id'],
+				'version'			=>	$version_data['products'],
 				'result'			=>	$products
 			),	
 		);
@@ -44,7 +44,7 @@ class Configuration extends CI_Controller
 
 		$result = array(
 			'command'	=>	'requestProductIds',
-			'version'	=>	$version_data['product_id']
+			'version'	=>	$version_data['products']
 			'products'	=>	$data
 		)
 
