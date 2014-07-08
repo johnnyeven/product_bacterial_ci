@@ -37,6 +37,7 @@ class Configuration extends CI_Controller
 
 	public function product_id()
 	{
+		error_reporting(E_ALL);
 		$this->load->config('version_config');
 		$this->load->config('product_items');
 		$version_data = $this->config->item('version_config');
