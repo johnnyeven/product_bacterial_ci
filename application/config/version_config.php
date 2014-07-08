@@ -8,7 +8,7 @@ $config['version_config'] = array(
 	),
 	'upgrade_const'	=>	array(
 		'version'		=>	'20140708',
-		'command'		=>	'requestUpgradeConst'
+		'command'		=>	'requestUpgradeConst',
 		'url'			=>	'http://b.profzone.net/configuration/upgrade'
 	)
 );
