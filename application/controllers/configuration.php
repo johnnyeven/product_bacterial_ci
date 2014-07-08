@@ -32,7 +32,7 @@ class Configuration extends CI_Controller
 				'result'			=>	$products
 			),
 			'upgrade_const'		=>	array(
-				'version'			=>	$version_data['upgrade'],
+				'version'			=>	$version_data['upgrade_const'],
 				'result'			=>	$upgrade
 			)
 		);
