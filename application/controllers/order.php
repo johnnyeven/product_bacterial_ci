@@ -38,7 +38,7 @@ class Order extends CI_Controller
 				if($json && $json->status == '0')
 				{
 					$this->load->config('product_items');
-					$data = $this->config->item('product_items');
+					$data = $this->config->item('product_actions');
 					$items = $data[$identifier];
 
 					if(!empty($items))

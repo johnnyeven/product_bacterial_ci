@@ -1,19 +1,16 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 $config['product_identifiers'] = array(
-	'command'	=>	'requestProductIds',
-	'products'	=>	array(
-		"net.profzone.bacterial.killer6",
-		"net.profzone.bacterial.killer12",
-		"net.profzone.bacterial.killer18",
-		"net.profzone.bacterial.killer25",
-		"net.profzone.bacterial.killer40",
-		"net.profzone.bacterial.killer60",
-		"net.profzone.bacterial.killer98"
-	)
+	"net.profzone.bacterial.killer6",
+	"net.profzone.bacterial.killer12",
+	"net.profzone.bacterial.killer18",
+	"net.profzone.bacterial.killer25",
+	"net.profzone.bacterial.killer40",
+	"net.profzone.bacterial.killer60",
+	"net.profzone.bacterial.killer98"
 );
 
-$config['product_items'] = array(
+$config['product_actions'] = array(
 	'net.profzone.bacterial.killer6'	=>	array(
 		array(
 			'name'		=>	'exp',
