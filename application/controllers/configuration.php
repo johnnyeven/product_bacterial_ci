@@ -20,15 +20,21 @@ class Configuration extends CI_Controller
 	{
 		$this->load->config('version_config');
 		$this->load->config('product_items');
+		$this->load->config('upgrade_items');
 		$version_data = $this->config->item('version_config');
 		$products = $this->config->item('product_identifiers');
+		$upgrade = $this->config->item('upgrade_items');
 
 		$result = array(
 			'command'			=>	'requestGlobalConfig',
 			'products'			=>	array(
 				'version'			=>	$version_data['products'],
 				'result'			=>	$products
-			),	
+			),
+			'upgrade_const'		=>	array(
+				'version'			=>	$version_data['upgrade'],
+				'result'			=>	$upgrade
+			)
 		);
 
 		header('Content-type: application/json');
