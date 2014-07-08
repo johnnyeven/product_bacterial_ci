@@ -40,7 +40,7 @@ class Configuration extends CI_Controller
 		$this->load->config('version_config');
 		$this->load->config('product_items');
 		$version_data = $this->config->item('version_config');
-		$data = $this->config->item('product_items');
+		$data = $this->config->item('product_identifiers');
 
 		$result = array(
 			'command'	=>	'requestProductIds',
