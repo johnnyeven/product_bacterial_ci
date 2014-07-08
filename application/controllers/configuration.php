@@ -44,9 +44,9 @@ class Configuration extends CI_Controller
 
 		$result = array(
 			'command'	=>	'requestProductIds',
-			'version'	=>	$version_data['products']
+			'version'	=>	$version_data['products'],
 			'products'	=>	$data
-		)
+		);
 
 		header('Content-type: application/json');
 		echo json_encode($result);
