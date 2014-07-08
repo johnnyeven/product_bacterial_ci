@@ -33,7 +33,6 @@ class Order extends CI_Controller
 						'Content-Type: application/json'
 				));
 				$result = curl_exec($ch);
-
 				$json = json_decode($result);
 				if($json && $json->status == '0')
 				{
