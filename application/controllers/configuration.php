@@ -28,11 +28,11 @@ class Configuration extends CI_Controller
 		$result = array(
 			'command'			=>	'requestGlobalConfig',
 			'products'			=>	array(
-				'version'			=>	$version_data['products'],
+				'version'			=>	$version_data['products']['version'],
 				'result'			=>	$products
 			),
 			'upgrade_const'		=>	array(
-				'version'			=>	$version_data['upgrade_const'],
+				'version'			=>	$version_data['upgrade_const']['version'],
 				'result'			=>	$upgrade
 			)
 		);
