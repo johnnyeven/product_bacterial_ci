@@ -63,4 +63,21 @@ class Configuration extends CI_Controller
 		header('Content-type: application/json');
 		echo json_encode($result);
 	}
+
+	public function score_board()
+	{
+		$this->load->config('version_config');
+		$version_data = $this->config->item('version_config');
+
+		$result = array(
+			'command'		=>	'requestScoreBoard',
+			'score_board'	=>	array(
+				'version'		=>	$version_data['score_board'],
+				'result'		=>	0
+			)
+		);
+
+		header('Content-type: application/json');
+		echo json_encode($result);
+	}
 }
