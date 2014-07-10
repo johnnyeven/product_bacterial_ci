@@ -37,7 +37,7 @@ class Configuration extends CI_Controller
 			),
 			'score_board'		=>	array(
 				'version'			=>	$version_data['score_board'],
-				'result'			=>	0
+				'result'			=>	1
 			),
 		);
 
@@ -73,7 +73,7 @@ class Configuration extends CI_Controller
 			'command'		=>	'requestScoreBoard',
 			'score_board'	=>	array(
 				'version'		=>	$version_data['score_board'],
-				'result'		=>	0
+				'result'		=>	1
 			)
 		);
 
