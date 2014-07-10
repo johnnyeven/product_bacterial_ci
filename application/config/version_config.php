@@ -2,7 +2,7 @@
 
 $config['version_config'] = array(
 	'products'		=>	array(
-		'version'		=>	'20140708',
+		'version'		=>	'20140710',
 		'command'		=>	'requestProductIds',
 		'url'			=>	'http://b.profzone.net/configuration/product_id'
 	),
