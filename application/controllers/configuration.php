@@ -34,7 +34,11 @@ class Configuration extends CI_Controller
 			'upgrade_const'		=>	array(
 				'version'			=>	$version_data['upgrade_const'],
 				'result'			=>	$upgrade
-			)
+			),
+			'score_board'		=>	array(
+				'version'			=>	$version_data['score_board'],
+				'result'			=>	0
+			),
 		);
 
 		header('Content-type: application/json');
