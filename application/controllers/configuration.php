@@ -64,6 +64,25 @@ class Configuration extends CI_Controller
 		echo json_encode($result);
 	}
 
+	public function upgrade()
+	{
+		$this->load->config('version_config');
+		$this->load->config('upgrade_items');
+		$version_data = $this->config->item('version_config');
+		$data = $this->config->item('upgrade_items');
+
+		$result = array(
+			'command'		=>	'requestUpgradeConst',
+			'upgrade_const'	=>	array(
+				'version'		=>	$version_data['upgrade_const'],
+				'result'		=>	$data
+			)
+		);
+
+		header('Content-type: application/json');
+		echo json_encode($result);
+	}
+
 	public function score_board()
 	{
 		$this->load->config('version_config');
