@@ -117,7 +117,7 @@ $config['upgrade_items'] = array(
 				'level'			=>	2,
 				'comment'		=>	'生物质产量+20%',
 				'additional'	=>	array(
-					'upgradeBiomassDec'	=>	0.2
+					'upgradeBiomassInc'	=>	0.2
 				),
 				'cost'			=>	1200,
 				'rate'			=>	80
@@ -126,7 +126,7 @@ $config['upgrade_items'] = array(
 				'level'			=>	3,
 				'comment'		=>	'生物质产量+40%',
 				'additional'	=>	array(
-					'upgradeBiomassDec'	=>	0.4
+					'upgradeBiomassInc'	=>	0.4
 				),
 				'cost'			=>	3000,
 				'rate'			=>	60
@@ -135,7 +135,7 @@ $config['upgrade_items'] = array(
 				'level'			=>	4,
 				'comment'		=>	'生物质产量+60%',
 				'additional'	=>	array(
-					'upgradeBiomassDec'	=>	0.6
+					'upgradeBiomassInc'	=>	0.6
 				),
 				'cost'			=>	6000,
 				'rate'			=>	40
@@ -144,7 +144,7 @@ $config['upgrade_items'] = array(
 				'level'			=>	5,
 				'comment'		=>	'生物质产量+100%',
 				'additional'	=>	array(
-					'upgradeBiomassDec'	=>	1
+					'upgradeBiomassInc'	=>	1
 				),
 				'cost'			=>	12000,
 				'rate'			=>	20
