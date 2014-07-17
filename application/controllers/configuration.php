@@ -24,6 +24,7 @@ class Configuration extends CI_Controller
 		$version_data = $this->config->item('version_config');
 		$products = $this->config->item('product_identifiers');
 		$upgrade = $this->config->item('upgrade_items');
+		$score_board = $this->config->item('enabled_scoreboard');
 
 		$result = array(
 			'command'			=>	'requestGlobalConfig',
@@ -37,7 +38,7 @@ class Configuration extends CI_Controller
 			),
 			'score_board'		=>	array(
 				'version'			=>	$version_data['score_board'],
-				'result'			=>	0
+				'result'			=>	$score_board
 			),
 		);
 
@@ -87,12 +88,13 @@ class Configuration extends CI_Controller
 	{
 		$this->load->config('version_config');
 		$version_data = $this->config->item('version_config');
+		$score_board = $this->config->item('enabled_scoreboard');
 
 		$result = array(
 			'command'		=>	'requestScoreBoard',
 			'score_board'	=>	array(
 				'version'		=>	$version_data['score_board'],
-				'result'		=>	1
+				'result'		=>	$score_board
 			)
 		);
 
