@@ -2,25 +2,32 @@
 
 $config['product_identifiers'] = array(
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer6"
+		'productIdentifier'		=>	"net.profzone.bacterial.killer6",
+		'sort'					=>	1
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer12"
+		'productIdentifier'		=>	"net.profzone.bacterial.killer12",
+		'sort'					=>	2
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer18"
+		'productIdentifier'		=>	"net.profzone.bacterial.killer18",
+		'sort'					=>	3
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer25"
+		'productIdentifier'		=>	"net.profzone.bacterial.killer25",
+		'sort'					=>	4
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer40"
+		'productIdentifier'		=>	"net.profzone.bacterial.killer40",
+		'sort'					=>	5
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer60"
+		'productIdentifier'		=>	"net.profzone.bacterial.killer60",
+		'sort'					=>	6
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer98"
+		'productIdentifier'		=>	"net.profzone.bacterial.killer98",
+		'sort'					=>	7
 	)
 );
 

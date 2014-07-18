@@ -3,6 +3,7 @@
 $config['upgrade_items'] = array(
 	'upgrade1'		=>	array(
 		'name'			=>	'生物酶基因改造',
+		'sort'			=>	1,
 		'levels'		=>	array(
 			array(
 				'level'			=>	1,
@@ -53,6 +54,7 @@ $config['upgrade_items'] = array(
 	),
 	'upgrade2'		=>	array(
 		'name'			=>	'适应性改造-初级',
+		'sort'			=>	2,
 		'levels'		=>	array(
 			array(
 				'level'			=>	1,
@@ -103,6 +105,7 @@ $config['upgrade_items'] = array(
 	),
 	'upgrade3'		=>	array(
 		'name'			=>	'适应性改造-高级',
+		'sort'			=>	3,
 		'levels'		=>	array(
 			array(
 				'level'			=>	1,
@@ -153,6 +156,7 @@ $config['upgrade_items'] = array(
 	),
 	'upgrade4'		=>	array(
 		'name'			=>	'分裂',
+		'sort'			=>	4,
 		'levels'		=>	array(
 			array(
 				'level'			=>	1,
@@ -203,6 +207,7 @@ $config['upgrade_items'] = array(
 	),
 	'upgrade5'		=>	array(
 		'name'			=>	'细胞基因序列优化',
+		'sort'			=>	5,
 		'levels'		=>	array(
 			array(
 				'level'			=>	1,
@@ -253,6 +258,7 @@ $config['upgrade_items'] = array(
 	),
 	'upgrade6'		=>	array(
 		'name'			=>	'养精蓄锐',
+		'sort'			=>	6,
 		'levels'		=>	array(
 			array(
 				'level'			=>	1,
@@ -308,6 +314,7 @@ $config['upgrade_items'] = array(
 	),
 	'upgrade7'		=>	array(
 		'name'			=>	'终极进化',
+		'sort'			=>	7,
 		'levels'		=>	array(
 			array(
 				'level'			=>	1,
