@@ -252,11 +252,66 @@ $config['upgrade_items'] = array(
 		)
 	),
 	'upgrade6'		=>	array(
+		'name'			=>	'养精蓄锐',
+		'levels'		=>	array(
+			array(
+				'level'			=>	1,
+				'comment'		=>	'进化时10%机率恢复1点体力',
+				'additional'	=>	array(
+					'upgradeStepInc'		=>	1,
+					'upgradeStepIncRate'	=>	0.1
+				),
+				'cost'			=>	500,
+				'rate'			=>	100
+			),
+			array(
+				'level'			=>	2,
+				'comment'		=>	'进化时20%机率恢复1点体力',
+				'additional'	=>	array(
+					'upgradeStepInc'		=>	1,
+					'upgradeStepIncRate'	=>	0.2
+				),
+				'cost'			=>	1500,
+				'rate'			=>	80
+			),
+			array(
+				'level'			=>	3,
+				'comment'		=>	'进化时30%机率恢复1点体力',
+				'additional'	=>	array(
+					'upgradeStepInc'		=>	1,
+					'upgradeStepIncRate'	=>	0.3
+				),
+				'cost'			=>	4000,
+				'rate'			=>	60
+			),
+			array(
+				'level'			=>	4,
+				'comment'		=>	'进化时30%机率恢复2点体力',
+				'additional'	=>	array(
+					'upgradeStepInc'		=>	2,
+					'upgradeStepIncRate'	=>	0.3
+				),
+				'cost'			=>	8000,
+				'rate'			=>	40
+			),
+			array(
+				'level'			=>	5,
+				'comment'		=>	'进化时40%机率恢复2点体力',
+				'additional'	=>	array(
+					'upgradeStepInc'		=>	2,
+					'upgradeStepIncRate'	=>	0.4
+				),
+				'cost'			=>	16000,
+				'rate'			=>	20
+			)
+		)
+	),
+	'upgrade7'		=>	array(
 		'name'			=>	'终极进化',
 		'levels'		=>	array(
 			array(
 				'level'			=>	1,
-				'comment'		=>	'%2机率样本自动进化',
+				'comment'		=>	'%2机率样本进化时等级+2',
 				'additional'	=>	array(
 					'upgradeAutoRevolution'	=>	0.02
 				),
@@ -265,7 +320,7 @@ $config['upgrade_items'] = array(
 			),
 			array(
 				'level'			=>	2,
-				'comment'		=>	'%3机率样本自动进化',
+				'comment'		=>	'%3机率样本进化时等级+2',
 				'additional'	=>	array(
 					'upgradeAutoRevolution'	=>	0.03
 				),
@@ -274,7 +329,7 @@ $config['upgrade_items'] = array(
 			),
 			array(
 				'level'			=>	3,
-				'comment'		=>	'%4机率样本自动进化',
+				'comment'		=>	'%4机率样本进化时等级+2',
 				'additional'	=>	array(
 					'upgradeAutoRevolution'	=>	0.04
 				),
@@ -283,7 +338,7 @@ $config['upgrade_items'] = array(
 			),
 			array(
 				'level'			=>	4,
-				'comment'		=>	'%5机率样本自动进化',
+				'comment'		=>	'%5机率样本进化时等级+2',
 				'additional'	=>	array(
 					'upgradeAutoRevolution'	=>	0.05
 				),
@@ -292,7 +347,7 @@ $config['upgrade_items'] = array(
 			),
 			array(
 				'level'			=>	5,
-				'comment'		=>	'%8机率样本自动进化',
+				'comment'		=>	'%8机率样本进化时等级+2',
 				'additional'	=>	array(
 					'upgradeAutoRevolution'	=>	0.06
 				),
