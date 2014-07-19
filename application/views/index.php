@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Profzone.NET - 老李的实验室</title>
+<link href="resources/style/common.css" rel="stylesheet" type="text/css" />
+<link href="resources/style/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="top">
+    	<div class="logo">
+        	<img src="resources/image/logo.png" alt="profzone" width="216" height="49" />
+        </div>
+        <div class="nav">
+        	<a href="/">首页</a> | 
+            <a href="http://www.johnnyeven.com/">博客</a> | 
+            <a href="http://www.profzone.net/products.html">实验对象</a> | 
+            <a href="http://www.profzone.net/about.html">关于</a>
+        </div>
+        <div class="clear"></div>
+	</div>
+    <div class="content">
+    	<div class="left-arrow" id="prev">
+        	<img src="resources/image/arrow_left.png" />
+        </div>
+    	<div class="right-arrow" id="next">
+        	<img src="resources/image/arrow_right.png" />
+        </div>
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="slider-item">
+                	<div class="slider-left">
+                    	<img src="resources/image/others/pic1.png" />
+                    </div>
+                    <div class="slider-right">
+                    	<h3>细菌培养者</h3>
+                        <p>某年某月某日的一天，科学家发现了一种新的细菌。在它生命周期中，只要遇到和自己的同类就会快速的进化成高级的细菌。</p>
+                        <p>科学家为了研究这种细菌的能力，于是招募了你这名优秀的生物学家，将为数不多的细菌样本以及培养皿交到你手中，你要尽可能的让这些细菌进化，并保护它们不会因为环境的改变而死亡。这就去完成你的使命吧！</p>
+                        <p><a href="#">App Store 下载 &gt;&gt;</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="text">
+    	<div class="text-left" style="width:1170px">
+        	<div class="text-left-title">
+            	<img src="resources/image/news_title.png" width="110" height="30" />
+            </div>
+            <div>
+                <p>正在整理攻略^_^</p>
+            </div>
+      	</div>
+    </div>
+    <div class="footer">
+    	<p>JohnNy LeE 2014 &copy; Copyright <a href="http://www.profzone.net/privacy.html">隐私声明</a></p>
+    </div>
+</div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51809575-1', 'profzone.net');
+  ga('send', 'pageview');
+
+</script>
