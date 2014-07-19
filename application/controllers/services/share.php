@@ -2,7 +2,7 @@
 
 class Share extends CI_Controller
 {
-	public function __contructor()
+	public function __construct()
 	{
 		$this->load->helper('url');
 	}
