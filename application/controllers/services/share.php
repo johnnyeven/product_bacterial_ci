@@ -2,9 +2,18 @@
 
 class Share extends CI_Controller
 {
-	public function wechat()
+	public function _contructor()
 	{
 		$this->load->helper('url');
+	}
+
+	public function wechat()
+	{
+		redirect('welcome');
+	}
+
+	public function weibo()
+	{
 		redirect('welcome');
 	}
 }
