@@ -358,3 +358,4 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 $config['enabled_scoreboard'] = 0;
+$config['enabled_ad'] = 1;

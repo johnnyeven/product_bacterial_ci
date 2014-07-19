@@ -15,5 +15,10 @@ $config['version_config'] = array(
 		'version'		=>	'20140710',
 		'command'		=>	'requestScoreBoard',
 		'url'			=>	'http://b.profzone.net/configuration/score_board'
+	),
+	'ad'	=>	array(
+		'version'		=>	'20140710',
+		'command'		=>	'requestAd',
+		'url'			=>	'http://b.profzone.net/configuration/ad'
 	)
 );

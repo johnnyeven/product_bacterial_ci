@@ -25,6 +25,7 @@ class Configuration extends CI_Controller
 		$products = $this->config->item('product_identifiers');
 		$upgrade = $this->config->item('upgrade_items');
 		$score_board = $this->config->item('enabled_scoreboard');
+		$ad = $this->config->item('enabled_ad');
 
 		$result = array(
 			'command'			=>	'requestGlobalConfig',
@@ -40,6 +41,10 @@ class Configuration extends CI_Controller
 				'version'			=>	$version_data['score_board'],
 				'result'			=>	$score_board
 			),
+			'ad'				=>	array(
+				'version'			=>	$version_data['ad'],
+				'result'			=>	$ad
+			)
 		);
 
 		header('Content-type: application/json');
@@ -95,6 +100,24 @@ class Configuration extends CI_Controller
 			'score_board'	=>	array(
 				'version'		=>	$version_data['score_board'],
 				'result'		=>	$score_board
+			)
+		);
+
+		header('Content-type: application/json');
+		echo json_encode($result);
+	}
+
+	public function ad()
+	{
+		$this->load->config('version_config');
+		$version_data = $this->config->item('version_config');
+		$ad = $this->config->item('enabled_ad');
+
+		$result = array(
+			'command'		=>	'requestAd',
+			'ad'			=>	array(
+				'version'		=>	$version_data['ad'],
+				'result'		=>	$ad
 			)
 		);
 
