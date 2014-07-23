@@ -6,6 +6,11 @@ $config['version_config'] = array(
 		'command'		=>	'requestProductIds',
 		'url'			=>	'http://b.profzone.net/configuration/product_id'
 	),
+	'virtual_const'	=>	array(
+		'version'		=>	'20140708',
+		'command'		=>	'requestVirtualConst',
+		'url'			=>	'http://b.profzone.net/configuration/virtual'
+	),
 	'upgrade_const'	=>	array(
 		'version'		=>	'20140708',
 		'command'		=>	'requestUpgradeConst',
