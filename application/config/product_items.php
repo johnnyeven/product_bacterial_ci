@@ -2,76 +2,66 @@
 
 $config['product_identifiers'] = array(
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer6",
+		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack6",
 		'sort'					=>	1
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer12",
+		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack12",
 		'sort'					=>	2
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer18",
+		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack25",
 		'sort'					=>	3
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer25",
+		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack45",
 		'sort'					=>	4
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer40",
+		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack68",
 		'sort'					=>	5
 	),
 	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer60",
+		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack128",
 		'sort'					=>	6
-	),
-	array(
-		'productIdentifier'		=>	"net.profzone.bacterial.killer98",
-		'sort'					=>	7
 	)
 );
 
 $config['product_actions'] = array(
-	'net.profzone.bacterial.killer6'	=>	array(
+	'net.profzone.bacterial2.gold_pack6'	=>	array(
 		array(
-			'name'		=>	'exp',
-			'count'		=>	1000
+			'name'		=>	'gold',
+			'count'		=>	2000
 		)
 	),
-	'net.profzone.bacterial.killer12'	=>	array(
+	'net.profzone.bacterial2.gold_pack12'	=>	array(
 		array(
-			'name'		=>	'exp',
-			'count'		=>	2100
-		)
-	),
-	'net.profzone.bacterial.killer18'	=>	array(
-		array(
-			'name'		=>	'exp',
-			'count'		=>	3500
-		)
-	),
-	'net.profzone.bacterial.killer25'	=>	array(
-		array(
-			'name'		=>	'exp',
+			'name'		=>	'gold',
 			'count'		=>	5000
 		)
 	),
-	'net.profzone.bacterial.killer40'	=>	array(
+	'net.profzone.bacterial2.gold_pack25'	=>	array(
 		array(
-			'name'		=>	'exp',
-			'count'		=>	9000
+			'name'		=>	'gold',
+			'count'		=>	12000
 		)
 	),
-	'net.profzone.bacterial.killer60'	=>	array(
+	'net.profzone.bacterial2.gold_pack45'	=>	array(
 		array(
-			'name'		=>	'exp',
-			'count'		=>	15000
+			'name'		=>	'gold',
+			'count'		=>	25000
 		)
 	),
-	'net.profzone.bacterial.killer98'	=>	array(
+	'net.profzone.bacterial2.gold_pack68'	=>	array(
 		array(
-			'name'		=>	'exp',
-			'count'		=>	30000
+			'name'		=>	'gold',
+			'count'		=>	40000
 		)
 	),
+	'net.profzone.bacterial2.gold_pack128'	=>	array(
+		array(
+			'name'		=>	'gold',
+			'count'		=>	100000
+		)
+	)
 );

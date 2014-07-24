@@ -20,11 +20,9 @@ class Configuration extends CI_Controller
 	{
 		$this->load->config('version_config');
 		$this->load->config('product_items');
-		$this->load->config('upgrade_items');
 		$this->load->config('virtual_items');
 		$version_data = $this->config->item('version_config');
 		$products = $this->config->item('product_identifiers');
-		$upgrade = $this->config->item('upgrade_items');
 		$virtual = $this->config->item('virtual_items');
 		$score_board = $this->config->item('enabled_scoreboard');
 		$ad = $this->config->item('enabled_ad');
@@ -38,10 +36,6 @@ class Configuration extends CI_Controller
 			'virtual_const'		=>	array(
 				'version'			=>	$version_data['virtual_const'],
 				'result'			=>	$virtual
-			),
-			'upgrade_const'		=>	array(
-				'version'			=>	$version_data['upgrade_const'],
-				'result'			=>	$upgrade
 			),
 			'score_board'		=>	array(
 				'version'			=>	$version_data['score_board'],
@@ -87,25 +81,6 @@ class Configuration extends CI_Controller
 			'command'		=>	'requestVirtualConst',
 			'upgrade_const'	=>	array(
 				'version'		=>	$version_data['virtual_const'],
-				'result'		=>	$data
-			)
-		);
-
-		header('Content-type: application/json');
-		echo json_encode($result);
-	}
-
-	public function upgrade()
-	{
-		$this->load->config('version_config');
-		$this->load->config('upgrade_items');
-		$version_data = $this->config->item('version_config');
-		$data = $this->config->item('upgrade_items');
-
-		$result = array(
-			'command'		=>	'requestUpgradeConst',
-			'upgrade_const'	=>	array(
-				'version'		=>	$version_data['upgrade_const'],
 				'result'		=>	$data
 			)
 		);
