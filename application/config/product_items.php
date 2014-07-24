@@ -46,10 +46,22 @@ $config['product_identifiers'] = array(
 );
 
 $config['product_actions'] = array(
-	'net.profzone.bacterial2.gold_pack6'	=>	2000,
-	'net.profzone.bacterial2.gold_pack12'	=>	5000,
-	'net.profzone.bacterial2.gold_pack25'	=>	12000,
-	'net.profzone.bacterial2.gold_pack45'	=>	25000,
-	'net.profzone.bacterial2.gold_pack68'	=>	40000,
-	'net.profzone.bacterial2.gold_pack128'	=>	100000
+	'net.profzone.bacterial2.gold_pack6'	=>	array(
+		'gold'	=>	2000
+	),
+	'net.profzone.bacterial2.gold_pack12'	=>	array(
+		'gold'	=>	5000
+	),
+	'net.profzone.bacterial2.gold_pack25'	=>	array(
+		'gold'	=>	12000
+	),
+	'net.profzone.bacterial2.gold_pack45'	=>	array(
+		'gold'	=>	25000
+	),
+	'net.profzone.bacterial2.gold_pack68'	=>	array(
+		'gold'	=>	40000
+	),
+	'net.profzone.bacterial2.gold_pack128'	=>	array(
+		'gold'	=>	100000
+	)
 );
