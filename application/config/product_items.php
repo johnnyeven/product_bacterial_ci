@@ -6,14 +6,17 @@ $config['product_identifiers'] = array(
 		'items'					=>	array(
 			'gold'					=>	2000
 		),
-		'sort'					=>	1
+		'sort'					=>	2
 	),
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack12",
 		'items'					=>	array(
-			'gold'					=>	5000
+			'gold'					=>	5000,
+			'step'					=>	200,
+			'uper'					=>	2,
+			'killer'				=>	2
 		),
-		'sort'					=>	2
+		'sort'					=>	1
 	),
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack25",
@@ -50,7 +53,10 @@ $config['product_actions'] = array(
 		'gold'	=>	2000
 	),
 	'net.profzone.bacterial2.gold_pack12'	=>	array(
-		'gold'	=>	5000
+		'gold'		=>	5000,
+		'step'		=>	200,
+		'uper'		=>	2,
+		'killer'	=>	2
 	),
 	'net.profzone.bacterial2.gold_pack25'	=>	array(
 		'gold'	=>	12000
