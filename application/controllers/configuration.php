@@ -79,7 +79,7 @@ class Configuration extends CI_Controller
 
 		$result = array(
 			'command'		=>	'requestVirtualConst',
-			'upgrade_const'	=>	array(
+			'virtual_const'	=>	array(
 				'version'		=>	$version_data['virtual_const'],
 				'result'		=>	$data
 			)
