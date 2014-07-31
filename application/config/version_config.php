@@ -17,7 +17,7 @@ $config['version_config'] = array(
 		'url'			=>	'http://b.profzone.net/configuration/upgrade'
 	),
 	'score_board'	=>	array(
-		'version'		=>	'20140711',
+		'version'		=>	'20140731',
 		'command'		=>	'requestScoreBoard',
 		'url'			=>	'http://b.profzone.net/configuration/score_board'
 	),
