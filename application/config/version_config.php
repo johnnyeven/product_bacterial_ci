@@ -16,7 +16,7 @@ $config['version_config'] = array(
 		'command'		=>	'requestScoreBoard',
 		'url'			=>	'http://b2.profzone.net/configuration/score_board'
 	),
-	'ad'	=>	array(
+	'ad'			=>	array(
 		'version'		=>	'20140710',
 		'command'		=>	'requestAd',
 		'url'			=>	'http://b2.profzone.net/configuration/ad'
@@ -25,5 +25,10 @@ $config['version_config'] = array(
 		'version'		=>	'20140731',
 		'command'		=>	'requestShareReward',
 		'url'			=>	'http://b2.profzone.net/configuration/share_reward'
+	),
+	'activity'		=>	array(
+		'version'		=>	'20140731',
+		'command'		=>	'requestActivity',
+		'url'			=>	'http://b2.profzone.net/configuration/activity'
 	)
 );

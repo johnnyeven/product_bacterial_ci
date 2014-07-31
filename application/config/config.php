@@ -359,4 +359,5 @@ $config['proxy_ips'] = '';
 
 $config['enabled_scoreboard'] = 1;
 $config['enabled_ad'] = 1;
+$config['enabled_activity'] = 1;
 $config['share_reward'] = 200;
