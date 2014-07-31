@@ -11,4 +11,9 @@ class Share extends CI_Controller
 	{
 		redirect('welcome');
 	}
+
+	public function qqweibo()
+	{
+		redirect('welcome');
+	}
 }
