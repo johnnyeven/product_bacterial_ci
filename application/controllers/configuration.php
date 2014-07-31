@@ -26,6 +26,7 @@ class Configuration extends CI_Controller
 		$virtual = $this->config->item('virtual_items');
 		$score_board = $this->config->item('enabled_scoreboard');
 		$ad = $this->config->item('enabled_ad');
+		$share_reward = $this->config->item('share_reward');
 
 		$result = array(
 			'command'			=>	'requestGlobalConfig',
@@ -44,6 +45,10 @@ class Configuration extends CI_Controller
 			'ad'				=>	array(
 				'version'			=>	$version_data['ad'],
 				'result'			=>	$ad
+			),
+			'share_reward'		=>	array(
+				'version'			=>	$version_data['share_reward'],
+				'result'			=>	$share_reward
 			)
 		);
 
@@ -118,6 +123,24 @@ class Configuration extends CI_Controller
 			'ad'			=>	array(
 				'version'		=>	$version_data['ad'],
 				'result'		=>	$ad
+			)
+		);
+
+		header('Content-type: application/json');
+		echo json_encode($result);
+	}
+
+	public function share_reward()
+	{
+		$this->load->config('version_config');
+		$version_data = $this->config->item('version_config');
+		$share_reward = $this->config->item('share_reward');
+
+		$result = array(
+			'command'		=>	'requestShareReward',
+			'share_reward'	=>	array(
+				'version'		=>	$version_data['share_reward'],
+				'result'		=>	$share_reward
 			)
 		);
 
