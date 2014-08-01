@@ -361,3 +361,11 @@ $config['enabled_scoreboard'] = 1;
 $config['enabled_ad'] = 1;
 $config['enabled_activity'] = 1;
 $config['share_reward'] = 200;
+$config['activity_code'] = array(
+	'download1'	=>	array(
+		'gold'		=>	2000,
+		'step'		=>	500,
+		'uper'		=>	5,
+		'killer'	=>	5
+	)
+);

@@ -45,24 +45,24 @@
 | the active record class
 */
 
-$active_group = 'default';
+$active_group = 'activitydb';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
-$db['default']['dbdriver'] = 'mysql';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
+$db['activitydb']['hostname'] = 'localhost';
+$db['activitydb']['username'] = 'root';
+$db['activitydb']['password'] = '84@41%%wi96^4';
+$db['activitydb']['database'] = 'profzone_bacterial2_gamedb';
+$db['activitydb']['dbdriver'] = 'mysqli';
+$db['activitydb']['dbprefix'] = '';
+$db['activitydb']['pconnect'] = FALSE;
+$db['activitydb']['db_debug'] = TRUE;
+$db['activitydb']['cache_on'] = FALSE;
+$db['activitydb']['cachedir'] = '';
+$db['activitydb']['char_set'] = 'utf8';
+$db['activitydb']['dbcollat'] = 'utf8_general_ci';
+$db['activitydb']['swap_pre'] = '';
+$db['activitydb']['autoinit'] = TRUE;
+$db['activitydb']['stricton'] = FALSE;
 
 
 /* End of file database.php */
