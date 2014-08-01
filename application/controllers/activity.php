@@ -30,11 +30,18 @@ class Activity extends CI_Controller
 					if(!empty($result))
 					{
 						$row = $result[0];
-						if($row->selected == '0' || $row->disabled == '1')
+						if($row->selected == '0')
 						{
 							echo json_encode(array(
 								'command'	=>	'activityDownloadCode',
 								'code'		=>	1400
+							));
+						}
+						elseif($row->disabled == '1')
+						{
+							echo json_encode(array(
+								'command'	=>	'activityDownloadCode',
+								'code'		=>	1401
 							));
 						}
 						else
