@@ -11,7 +11,6 @@ class Mcode extends CI_Model implements ICrud
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->library('database');
 		$this->logdb = $this->load->database('activitydb', TRUE);
 	}
 	
