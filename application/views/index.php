@@ -61,9 +61,17 @@
     	<p>JohnNy LeE 2014 &copy; Copyright <a href="http://www.profzone.net/privacy.html">隐私声明</a></p>
     </div>
 </div>
+<div id="couponDialog" title="抽取下载码">
+    <div id="couponContent">
+        <p>抽取下载码中...</p>
+    </div>
+</div>
 </body>
 </html>
+<link href="resources/script/jquery-ui.min.css" rel="stylesheet" type="text/css" />
 <script src="resources/script/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="resources/script/jquery-ui.min.js" type="text/javascript"></script>
+<script src="resources/script/activity.couponCode.js" type="text/javascript"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
