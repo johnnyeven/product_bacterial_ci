@@ -14,6 +14,7 @@ $(function() {
 		]
 	});
 	$("#getCode").click(function() {
+		$("#couponContent").html("<p>抽取下载码中...</p>");
 		$( "#couponDialog" ).dialog( "open" );
 		$.post("services/activity/coupon", {}, onGetCoupon);
 		event.preventDefault();
