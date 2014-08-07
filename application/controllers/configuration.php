@@ -9,6 +9,7 @@ class Configuration extends CI_Controller
 
 		$result = array(
 			'command'		=>	'requestVersionConfig',
+			'timestamp'		=>	time(),
 			'result'		=>	$data
 		);
 
