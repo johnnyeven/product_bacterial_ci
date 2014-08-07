@@ -38,8 +38,8 @@
                     	<h3>细菌培养者</h3>
                         <p>某年某月某日的一天，科学家发现了一种新的细菌。在它生命周期中，只要遇到和自己的同类就会快速的进化成高级的细菌。</p>
                         <p>科学家为了研究这种细菌的能力，于是招募了你这名优秀的生物学家，将为数不多的细菌样本以及培养皿交到你手中，你要尽可能的让这些细菌进化，并保护它们不会因为环境的改变而死亡。这就去完成你的使命吧！</p>
-                        <p><a id="getCode" href="#">领取下载码，更有好礼相送哦</a></p>
-                        <p><a href="#">App Store 下载 &gt;&gt;</a></p>
+                        <p><a id="getCode" href="#" onClick="_gaq.push(['_trackEvent', 'DownloadGame', 'coupon']);">领取下载码，更有好礼相送哦</a></p>
+                        <p><a href="#" onClick="_gaq.push(['_trackEvent', 'DownloadGame', 'appstore']);">App Store 下载 &gt;&gt;</a></p>
                     </div>
                     <div class="clear"></div>
                 </div>
