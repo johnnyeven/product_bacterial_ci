@@ -5,6 +5,16 @@
 <title>Profzone.NET - 老李的实验室</title>
 <link href="resources/style/common.css" rel="stylesheet" type="text/css" />
 <link href="resources/style/index.css" rel="stylesheet" type="text/css" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53423295-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body>
@@ -72,13 +82,3 @@
 <script src="resources/script/jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="resources/script/jquery-ui.min.js" type="text/javascript"></script>
 <script src="resources/script/activity.couponCode.js" type="text/javascript"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-53423295-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
