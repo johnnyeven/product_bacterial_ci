@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="360-site-verification" content="34687906f83ea156c0515518e133f49f" />
+<meta name="msvalidate.01" content="67C48D3758195E31D172EE6E18D8AE46" />
 <title>Profzone.NET - 老李的实验室</title>
 <link href="resources/style/common.css" rel="stylesheet" type="text/css" />
 <link href="resources/style/index.css" rel="stylesheet" type="text/css" />
