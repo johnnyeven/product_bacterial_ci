@@ -10,16 +10,16 @@
 
 .content .left-arrow {width:27px;height:88px;position:absolute;left:-40px;top:166px;cursor:pointer;}
 .content .right-arrow {width:27px;height:88px;position:absolute;right:-40px;top:166px;cursor:pointer;}
-.content .slider-wrapper {height:420px;width:1200px;overflow:hidden;position:relative;}
-.content .slider{height:420px;width:1200px;position:absolute;}
-.content .slider-item {height:420px;width:1200px;float:left;}
-.content .slider-item .slider-left {margin-top:45px;padding-left:30px;float:left;width:603px;}
-.content .slider-item .slider-right {float:right;padding-right:30px;margin-top:45px;width:500px;color:#585858;}
+.content .slider-wrapper {height:420px;width:1000px;overflow:hidden;position:relative;}
+.content .slider{height:420px;width:1000px;position:absolute;}
+.content .slider-item {height:420px;width:1000px;float:left;}
+.content .slider-item .slider-left {margin-top:45px;padding-left:30px;float:left;width:303px;}
+.content .slider-item .slider-right {float:right;padding-right:30px;margin-top:45px;width:600px;color:#585858;}
 .slider-right p {text-indent:24px;line-height:20px;}
 .slider-right a, .slider-right a:visited {color:#F60;font-weight:bold;}
 
-.text .text-left {float:left;width:530px;padding-left:30px;}
-.text .text-right {float:right;width:530px;padding-right:30px;}
+.text .text-left {float:left;width:430px;padding-left:30px;}
+.text .text-right {float:right;width:430px;padding-right:30px;}
 
 .text-left-title {height:30px;padding-top:10px;}
 .text-left-list {list-style:none;padding:10px 0 0 0;color:#585858;}

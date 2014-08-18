@@ -33,14 +33,18 @@
             <div class="slider">
                 <div class="slider-item">
                 	<div class="slider-left">
-                    	<img src="resources/image/others/pic1.png" />
+                    	
                     </div>
                     <div class="slider-right">
                     	<h3>细菌培养者</h3>
-                        <p>某年某月某日的一天，科学家发现了一种新的细菌。在它生命周期中，只要遇到和自己的同类就会快速的进化成高级的细菌。</p>
-                        <p>科学家为了研究这种细菌的能力，于是招募了你这名优秀的生物学家，将为数不多的细菌样本以及培养皿交到你手中，你要尽可能的让这些细菌进化，并保护它们不会因为环境的改变而死亡。这就去完成你的使命吧！</p>
-                        <p><a id="getCode" href="#" onClick="ga('send', 'event', 'DownloadGame', 'coupon');">领取下载码，更有好礼相送哦</a></p>
-                        <p><a href="http://um0.cn/6NBo8H/" onClick="ga('send', 'event', 'DownloadGame', 'appstore');">App Store 下载 &gt;&gt;</a></p>
+                        <div style="float:left;width:50%;">
+                            <p>某年某月某日的一天，科学家发现了一种新的细菌。在它生命周期中，只要遇到和自己的同类就会快速的进化成高级的细菌。</p>
+                            <p>科学家为了研究这种细菌的能力，于是招募了你这名优秀的生物学家，将为数不多的细菌样本以及培养皿交到你手中，你要尽可能的让这些细菌进化，并保护它们不会因为环境的改变而死亡。这就去完成你的使命吧！</p>
+                            <p><a id="getCode" href="#" onClick="ga('send', 'event', 'DownloadGame', 'coupon');">领取下载码，更有好礼相送哦</a></p>
+                            <p><a href="http://um0.cn/6NBo8H/" onClick="ga('send', 'event', 'DownloadGame', 'appstore');">App Store 下载 &gt;&gt;</a></p>
+                        </div>
+                        <div style="float:right;"><img src="resources/image/others/qrcode.png" alt="profzone" /></div>
+                        <div class="clear"></div>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -49,7 +53,7 @@
         </div>
     </div>
     <div class="text">
-    	<div class="text-left" style="width:1170px">
+    	<div class="text-left" style="width:970px">
         	<div class="text-left-title">
             	<img src="resources/image/news_title.png" width="110" height="30" />
             </div>
