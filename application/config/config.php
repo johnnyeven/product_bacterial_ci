@@ -357,7 +357,7 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-$config['enabled_scoreboard'] = 0;
+$config['enabled_scoreboard'] = 1;
 $config['enabled_ad'] = 1;
 $config['enabled_activity'] = 0;
 $config['share_reward'] = 200;
