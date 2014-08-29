@@ -12,7 +12,7 @@ $config['version_config'] = array(
 		'url'			=>	'http://b2.profzone.net/configuration/virtual'
 	),
 	'score_board'	=>	array(
-		'version'		=>	'20140725',
+		'version'		=>	'20140829',
 		'command'		=>	'requestScoreBoard',
 		'url'			=>	'http://b2.profzone.net/configuration/score_board'
 	),
