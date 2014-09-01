@@ -4,45 +4,45 @@ $config['product_identifiers'] = array(
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack6",
 		'items'					=>	array(
-			'gold'					=>	2000
+			'gold'					=>	3000
 		),
 		'sort'					=>	2
 	),
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack12",
 		'items'					=>	array(
-			'gold'					=>	5000,
-			'step'					=>	200,
-			'uper'					=>	2,
-			'killer'				=>	2
+			'gold'					=>	8000,
+			'step'					=>	500,
+			'uper'					=>	10,
+			'killer'				=>	10
 		),
 		'sort'					=>	1
 	),
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack25",
 		'items'					=>	array(
-			'gold'					=>	12000
+			'gold'					=>	20000
 		),
 		'sort'					=>	3
 	),
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack45",
 		'items'					=>	array(
-			'gold'					=>	25000
+			'gold'					=>	40000
 		),
 		'sort'					=>	4
 	),
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack68",
 		'items'					=>	array(
-			'gold'					=>	40000
+			'gold'					=>	60000
 		),
 		'sort'					=>	5
 	),
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack128",
 		'items'					=>	array(
-			'gold'					=>	100000
+			'gold'					=>	150000
 		),
 		'sort'					=>	6
 	)
@@ -50,24 +50,24 @@ $config['product_identifiers'] = array(
 
 $config['product_actions'] = array(
 	'net.profzone.bacterial2.gold_pack6'	=>	array(
-		'gold'	=>	2000
+		'gold'	=>	3000
 	),
 	'net.profzone.bacterial2.gold_pack12'	=>	array(
-		'gold'		=>	5000,
-		'step'		=>	200,
-		'uper'		=>	2,
-		'killer'	=>	2
+		'gold'		=>	8000,
+		'step'		=>	500,
+		'uper'		=>	10,
+		'killer'	=>	10
 	),
 	'net.profzone.bacterial2.gold_pack25'	=>	array(
-		'gold'	=>	12000
+		'gold'	=>	20000
 	),
 	'net.profzone.bacterial2.gold_pack45'	=>	array(
-		'gold'	=>	25000
+		'gold'	=>	35000
 	),
 	'net.profzone.bacterial2.gold_pack68'	=>	array(
-		'gold'	=>	40000
+		'gold'	=>	60000
 	),
 	'net.profzone.bacterial2.gold_pack128'	=>	array(
-		'gold'	=>	100000
+		'gold'	=>	150000
 	)
 );
