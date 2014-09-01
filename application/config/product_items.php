@@ -56,8 +56,8 @@ $config['product_identifiers'] = array(
 		'items'					=>	array(
 			'gold'					=>	150000,
 			'step'					=>	3000,
-			'uper'					=>	50,
-			'killer'				=>	50
+			'uper'					=>	40,
+			'killer'				=>	40
 		),
 		'sort'					=>	6
 	)
