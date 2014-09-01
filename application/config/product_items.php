@@ -9,7 +9,7 @@ $config['product_identifiers'] = array(
 			'uper'					=>	5,
 			'killer'				=>	5
 		),
-		'sort'					=>	2
+		'sort'					=>	1
 	),
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack12",
@@ -19,7 +19,7 @@ $config['product_identifiers'] = array(
 			'uper'					=>	10,
 			'killer'				=>	10
 		),
-		'sort'					=>	1
+		'sort'					=>	2
 	),
 	array(
 		'productIdentifier'		=>	"net.profzone.bacterial2.gold_pack25",
